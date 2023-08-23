@@ -2,11 +2,16 @@
   --primary-color: #e3cbae;
   --secondary-color: #4b2b1a;
   --third-color: #7e2c3b;
+  --box-shadow: 5px 10px 30px rgb(0, 0, 0, 0.2);
 }
 
 .croissant-img {
   max-width: 50%;
   display: block;
+}
+
+.avec-img {
+  max-width: 60%;
 }
 
 body {
@@ -16,4 +21,11 @@ body {
 
 a {
   color: var(--third-color);
+}
+
+.btn-color {
+  background: var(--secondary-color) !important;
+  border: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  box-shadow: var(--box-shadow);
 }
