@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #e3cbae;
+  --secondary-color: #4b2b1a;
+  --third-color: #7e2c3b;
+}
+
+.croissant-img {
+  max-width: 50%;
+  display: block;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--third-color);
+}
